@@ -108,10 +108,9 @@ article > p:nth-child(1) {
     line-height: 1.5;
     font-size: 130%;
   }
-  
+
   article {
     max-width: 50em;
     margin: 0 auto;
   }
-
 }
