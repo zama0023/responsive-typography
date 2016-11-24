@@ -83,9 +83,16 @@ article > p:nth-child(1) {
     line-height: 1.4;
     font-size: 110%;
   }
-
   article {
     margin: 1rem;
   }
 
+@media only screen and (min-width: 60em) {
+  html {
+    line-height: 1.5;
+    font-size: 120%;
+  }
+  article {
+    margin: 2rem;
+  }
 }
