@@ -22,8 +22,10 @@ html {
 }
 
 body {
-  margin: 1em;
+  margin: 0;
+  padding: 0 1em;
 }
+
 article h1 {
   font-weight: normal;
   margin-bottom: 0;
@@ -90,20 +92,26 @@ article > p:nth-child(1) {
   margin: 0;
 }
 
-
 @media only screen and (min-width: 38em) {
+
   html {
     line-height: 1.4;
     font-size: 110%;
   }
 
+}
+
 @media only screen and (min-width: 60em) {
+
   html {
     line-height: 1.5;
     font-size: 120%;
   }
 
+}
+
 @media only screen and (min-width: 90em) {
+
   html {
     line-height: 1.5;
     font-size: 130%;
@@ -113,4 +121,5 @@ article > p:nth-child(1) {
     max-width: 50em;
     margin: 0 auto;
   }
+
 }
